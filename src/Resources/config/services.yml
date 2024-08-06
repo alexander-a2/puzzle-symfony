@@ -1,0 +1,10 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+
+  AlexanderA2\PuzzleBundle\:
+    resource: '../../'
+    exclude:
+      - '../../src/DependencyInjection/'
+      - '../../src/Tests/'

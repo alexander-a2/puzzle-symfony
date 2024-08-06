@@ -1,0 +1,13 @@
+{
+  "name": "alexander-a2/puzzle-symfony",
+  "type": "symfony-bundle",
+  "autoload": {
+    "psr-4": {
+      "AlexanderA2\\PuzzleBundle\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.4",
+    "symfony/framework-bundle": "^7.0"
+  }
+}
