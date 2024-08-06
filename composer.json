@@ -8,6 +8,6 @@
   },
   "require": {
     "php": ">=7.4",
-    "symfony/framework-bundle": "^7.0"
+    "symfony/framework-bundle": "^6.0|^7.0"
   }
 }
