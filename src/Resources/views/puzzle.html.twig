@@ -16,6 +16,8 @@
             color: #223344;
         }
 
+        {% block stylesheet_scenario_step %}
+
         .scenario-step {
             display: inline-block;
             vertical-align: top;
@@ -61,6 +63,10 @@
             opacity: 1;
         }
 
+        {% endblock %}
+
+        {% block stylesheet_scenario_image %}
+
         .scenario-step-images select {
             width: 80%;
             margin: 10px auto;
@@ -80,6 +86,8 @@
             border-radius: 10px;
             border: 1px #eeeeee solid;
         }
+
+        {% endblock %}
 
         .input-text,
         .input-text-sm,
